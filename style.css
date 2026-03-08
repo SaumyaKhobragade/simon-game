@@ -39,3 +39,19 @@ body {
 .blue {
     background-color: #5aa6ff;
 }
+
+.flash {
+    animation: flash 0.5s ease-in-out;
+}
+
+@keyframes flash {
+    0% {
+        background-color: white;
+    }
+    50% {
+        background-color: white;
+    }
+    100% {
+        background-color: white;
+    }
+}
