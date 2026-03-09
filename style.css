@@ -55,3 +55,24 @@ body {
         background-color: white;
     }
 }
+
+.userflash {
+    animation: userflash 0.5s ease-in-out;
+}
+
+@keyframes userflash {
+    0% {
+        background-color: greenyellow;
+    }
+    50% {
+        background-color: greenyellow;
+    }
+    100% {
+        background-color: greenyellow;
+    }
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
